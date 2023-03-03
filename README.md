@@ -55,6 +55,9 @@ aprendendo
  para textos usar o 
  text -shadow
  
+++++++++++++++++++++++++++++++++++
+ Webkit
 
-
+++++++++++++++++++++++++++++++
+word wrap quebra a palavra dentro da div
 	  
