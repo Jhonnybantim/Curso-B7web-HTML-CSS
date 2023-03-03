@@ -35,5 +35,18 @@ Borda Arredondada
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Degrade
+.exemplo{ 
+           
+            width: 500px;
+            height: 200px;
+            background: blue;
+            background: linear-gradient(to left, white, blue);
+            ba
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Animações
+
+
 
 	  
