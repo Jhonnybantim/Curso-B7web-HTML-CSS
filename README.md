@@ -46,7 +46,14 @@ Degrade
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Animações
+aprendendo
++++++++++++++++++++++++++++++++
 
+ Sombras- 4 propriedades a serem definidas
+ sombra horizontal
+
+ para textos usar o 
+ text -shadow
 
 
 	  
