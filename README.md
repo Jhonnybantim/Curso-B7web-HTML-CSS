@@ -54,6 +54,7 @@ aprendendo
 
  para textos usar o 
  text -shadow
+ 
 
 
 	  
