@@ -6,36 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento</title>
     <style type="text/css">
-        .container{ 
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .corpo{ 
+            background-color: aquamarine;
             display: flex;
+            justify-content: center;
+            height: 470px;
+        }
+        .container{ 
+            width: 650px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             background-color: #dddddd;
-            margin: 10px;
+            margin:10px;
         }
-        .container div{ 
-            width: 30px;
-            background-color: red;
+           .headline{ 
+            width: 200px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            background-color: #3f3b3b63;
             margin: 10px;
-            padding: 10px;
-            font-size: 18px;
-        }
-   
+            
+           }  
+           .options{ 
+            width: 640px;
+            height: 180px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;         
+            margin: 5px;
+            
+           }     
+           .baner1,
+           .baner2,
+           .baner3
+           {
+            display: flex;
+            justify-content: center;
+            width: 213px;
+            height: 175px;
+            margin: 5px;
+            padding: 5px;  
+            font-size: 8px;                    
+           }
 
+           .baner1{
+            background-color: rgba(115, 115, 167, 0.966);
+           }
+           .baner2{
+            background-color: rgba(80, 80, 167, 0.966);
+           }
+           .baner3{
+            background-color: rgba(28, 28, 167, 0.966);
+           }
+        
     </style>
 </head>
 <body>
-    <div class="container">
-        <div >1</div>
-        <div >2</div>
-        <div >3</div>
-        <div >4 </div>
-        <div >5</div>
-        <div >6</div>
-        <div >7</div>
-        <div >8 </div>
-        <div >9</div>
-        <div >10</div>
-       
+    <section class="corpo">
+        <div class="container">
+            <div class="headline" >
+                
+            </div>
+            <div class="options">
+                <div class="baner1"> 
+                    
+                    ATENDIMENTO 
+                    
+                </div>
+                <div class="baner2"> TESTE 2</div>
+                <div class="baner3"> TESTE 3</div>
+
+
+            </div>
+           
         
-    </div>
+        
+        
+        </div>
+    </section>
 </body>
 </html>
