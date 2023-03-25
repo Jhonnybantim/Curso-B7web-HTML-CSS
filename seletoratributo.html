@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores por atibuto</title>
+</head>
+<style>
+    input, a { 
+        display: block;
+    }
+     /*Escrevendo desta forma abaixo ele vai trabalhar buscando dentro do atributo a informação e e atraves disso que consigo determinar corde fundo, size, o * buscara a palavra x etc */
+    a[href*="economia"] {
+        background-color: #ff0000;
+    }
+
+/* abaixo nao importa onde esteja a palavra ele ira executar a terafa colocado no seletor .   o asterisco busca em qualquer ponto o valor colocado em colcheter. */ 
+    a[href*="fotebol"] {
+        background-color: #ff0000;
+    }
+
+    /* A condição abaixo  ira fazer com que a busca seja no começo dos textos ou seja se eu tenho a seguinte condição. 
+     <input type ="text"  > <a> futebol é um jogo legal </>      como a frase começa com futbol então ele ira preencer, se fosse       <a> a ate que fotbol é um jogo legal, <a/> entõa ele nao fara nada pois não é a primeira palavra no atributo..*/
+
+    a[href^="fotebol"] {
+        background-color: #ff0000;
+    }
+
+/*As condições abaixo irão buscar no fim dos textos o html    o $ tem esta função de biscar o texto no final dos atributos */
+    a[href$="html"] {
+        background-color: #ff0000;
+    } 
+</style>
+<body>
+    
+</body>
+</html>
