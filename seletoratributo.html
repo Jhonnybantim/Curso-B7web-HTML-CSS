@@ -14,13 +14,21 @@
     a[href*="economia"] {
         background-color: #ff0000;
     }
+    a[href*="https:"] {
+        background-color: #ff0000;
+    }
+    a[href*="http:"] {
+        background-color: #ff0000;
+    }
+
 
 /* abaixo nao importa onde esteja a palavra ele ira executar a terafa colocado no seletor .   o asterisco busca em qualquer ponto o valor colocado em colcheter. */ 
     a[href*="fotebol"] {
         background-color: #ff0000;
     }
 
-    /* A condição abaixo  ira fazer com que a busca seja no começo dos textos ou seja se eu tenho a seguinte condição. 
+    /*
+    faz com que a prioridade seja a primeir palavra do texto dentro do atributo A condição abaixo  ira fazer com que a busca seja no começo dos textos ou seja se eu tenho a seguinte condição. 
      <input type ="text"  > <a> futebol é um jogo legal </>      como a frase começa com futbol então ele ira preencer, se fosse       <a> a ate que fotbol é um jogo legal, <a/> entõa ele nao fara nada pois não é a primeira palavra no atributo..*/
 
     a[href^="fotebol"] {
