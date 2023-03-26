@@ -11,16 +11,20 @@
             height: 30px;
         }
 
+        /*esta condição abaixo aplicou as condiçoes exigidas por conta do emppty, pois a div esta vazia sem valor, porem se eu atribuir valor a ela colocar algo dentro dela ela ira perder estas condições pois não mais se enquadra dentro de uma empty, e foi o que aconteceu atribuir e perdeu a cor, agora se eu tirar o valor de dentro da div, seja ela qual for as configuraões abaixo serão atribuidas a elas , vou tirar texto 1 , 3 e 5 um detelh IMPORTANTISSÍMO, A DIV TEM QUE ESTA ENCONSTADA UMA NA OUTRA, SE HOUVER ESPAÇOS ELE ENTENDE QUE TEM VALOR ALI E NÃO APLICARÁ O EMPTY   */
+        div:empty{
+            background-color: red;
+        }
 
 
     </style>
 </head>
 <body>
-    <div>Texto 1 </div>
+    <div></div>
     <div>Texto 2</div>
-    <div>Texto 3 </div>
+    <div></div>
     <div>Texto 4 </div>
-    <div>Texto 5 </div>
+    <div> </div>
     
 </body>
 </html>
