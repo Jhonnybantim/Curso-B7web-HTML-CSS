@@ -10,9 +10,20 @@
             text-align: center;
         }
         /*sempre que eu usar o before eu devo colocar o content. sempre*/
+        /* aqui se eu não colocar um valor dentro das aspas. nao vai aaprecer nada pq span é display inlin.. ele esta em uma linha, eu dei tamahos a ele mas ele não é um displey block, para resolver isso e aparecer eu preciso colocar a função display  */
         span::before{
-            content: "->";
+            content:"";  
+            display:inline-block; 
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            border: 1px solid #000;
+        }
 
+        span::after{
+            content: "<--";
+            background-color: red;
+            border: 1px solid #000;
         }
 
     </style>
